@@ -1,5 +1,4 @@
-const BASE_URL = "https://intellibin.herokuapp.com";
-//const BASE_URL = "http://127.0.0.1:8081";
+const BASE_URL = "https://intellibins.hoangpaul.com";
 
 function _request(url, options, callback) {
     const data = options.data || null;
