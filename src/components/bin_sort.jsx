@@ -23,6 +23,7 @@ class BinSort extends React.Component {
                 <div className="layer">
                     <Checkbox
                         label="Heat Map"
+                        checked="checked"
                         onCheck={() => {this.props.toggleHeatmap()}}
                     />
                 </div>

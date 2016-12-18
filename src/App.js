@@ -20,7 +20,7 @@ class App extends Component {
             bins:[],
             sort: SORT_FULL,
             mapLayer: {
-                heatmap: false
+                heatmap: true
             }
         };
         getBins((err, data) => {
@@ -33,7 +33,7 @@ class App extends Component {
                 bins: sortedBins,
                 sort: SORT_FULL,
                 mapLayer: {
-                    heatmap: false
+                    heatmap: true
                 },
                 lastUpdated: -1,
                 enableUpdates: 1
@@ -87,7 +87,7 @@ class App extends Component {
                         lastUpdated: Date.now()
                     });
                 }
-            }, 1000);
+            }, 2000);
 
         });
         this.setBinFocus = this.setBinFocus.bind(this);
