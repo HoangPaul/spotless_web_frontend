@@ -60,6 +60,7 @@ class GoogleMaps extends Component {
     render() {
         return (
             <GoogleMap
+                bootstrapURLKeys={{key: 'AIzaSyBS4PehCDo-VjqvB0X4Y2eXFdIQMV4X5k0'}}
                 zoom={19}
                 center={{lat: -37.81950134905335, lng: 144.98429111204815}}
                 yesIWantToUseGoogleMapApiInternals
